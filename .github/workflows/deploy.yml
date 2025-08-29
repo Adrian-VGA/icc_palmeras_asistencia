@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ main ]
 
+permissions:
+  contents: write   # 👈 Esto le da permiso al bot para crear la rama gh-pages
+
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
