@@ -6,7 +6,7 @@ interface Profile {
   name: string;
   displayName: string;
   subtitle: string;
-  logo: string;
+  logor: string;
   password: string;
   ageRange: {
     min: number;
@@ -29,7 +29,7 @@ export default function Login({ onLogin }: LoginProps) {
       name: 'R21 Kids',
       displayName: 'R21 KIDS PALMERAS',
       subtitle: 'Sistema de asistencia del Club Infantil',
-      logo: '/logo_r21kids.png',
+      logo: '🏢',
       password: '´2025',
       ageRange: { min: 1, max: 9 },
       memberLabel: 'niño',
@@ -55,7 +55,7 @@ export default function Login({ onLogin }: LoginProps) {
       name: 'Zona R21',
       displayName: 'ZONA R21 PALMERAS',
       subtitle: 'Sistema de asistencia de los Adolescentes',
-      logo: '/logo_zonar21.jpg',
+      logo: '🎯',
       password: '2025',
       ageRange: { min: 14, max: 17 },
       memberLabel: 'adolescente',
